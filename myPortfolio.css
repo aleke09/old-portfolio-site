@@ -1,0 +1,133 @@
+body{
+    position: relative;
+    font-family: 'Lucida Bright';
+}
+.jumbotron img{
+    border-radius: 50%;
+    width: 10px;
+    align-content: center;
+}
+#image-of-me{
+    width: 200px;
+    height: inherit;
+    margin: 10px 10px;
+}
+.col-sm-3 img{
+    width: 200px;
+    height: inherit;
+    margin: 10px 10px;
+}
+.about-me{
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #cdf9ff;
+    text-transform: uppercase;
+}
+.jumbotron{
+    background-color: rgba(20, 70, 69, 0.1);
+}
+footer{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 0;
+    padding-right: 0;
+}
+hr{
+    border-color: white;
+    align-items: center;
+} 
+#footer-div{
+    background-color: rgba(20, 70, 69, 0.1);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
+    text-decoration: none;
+    font-weight: 900;
+}
+#container{
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto 10%;
+    font-weight: 500;
+}
+#div1{  
+    box-shadow: 10px 10px 5px grey;
+
+}
+.col-div{
+    margin: 10px 10px;
+}
+.col-sm-6{
+    background-color: rgba(20, 70, 69, 0.1);
+    color: black;
+    font-weight: 600;
+    box-shadow: 10px 10px 5px grey;
+}
+.col-sm-3{
+    margin: 40px 40px;
+    border-radius: 10%;
+}
+
+#row{
+    margin: 10px auto;
+    max-width: 100;
+}
+i{
+    width: 20px;
+}
+#contact{
+    padding: 10px;
+    border-radius: 10%;
+}
+.arrow-up{
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+.arrow-up:hover{
+    color: grey;
+}
+h1{
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{
+    height: 350px;
+    padding-bottom: 10px;
+}
+marquee{
+    background-image: linear-gradient(30deg, #5c5336, #146d70, #edf7d1);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+    text-emphasis-color: red;
+}
+.col-lg-12{
+    max-width: 500px;
+    margin: 0 auto ;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.card-block{
+    max-width: 400px;
+    margin: 30px 30px;
+    margin-top: 0;
+    text-align: center;
+}
+.card{
+    height: 400px;
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.3);
+}
+.card-block .fa{
+    float: inherit;
+}

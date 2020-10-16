@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="myPortfolio.css">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="150">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" id="navbar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="fa fa-home" style="font-size: larger;  margin-right: 5px; padding-left: 5px;"></i>HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills"><i class="fa fa-cogs" style="font-size: larger;  margin-right: 5px;"></i>SKILLS <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <div>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about"><i class="fa fa-user" style="font-size: larger;  margin-right: 3px; padding-left: 5px;"></i>ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><i class="fa fa-address-book" style="font-size: larger;  margin-right: 5px;"></i>CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row" id="home">
+                <div class="col-sm-4 pt-5">
+                    <img src="myPic.JPG" id="image-of-me" alt="picture of me">
+                </div>
+                <div class="col-sm-4 mt-5 pt-5">
+                <p class="text-secondary">
+                <marquee behavior="" direction="">
+                    Hi! Welcome to my portfolio website
+                </marquee>
+                </p>
+                <hr />
+                <p class="text-secondary about-me">
+                My name is EZEKIEL,
+                I'm a front end developer, Datascientist, chess player and football lover.
+                </p>
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="jumbotron" id="container">
+         <div id="card">
+            <div class="container">
+                <div class="row card-deck-wrapper card-deck mb-5">
+                    <div class="card col-lg-4" id="skills">
+                        <div class="card-block">
+                            <i class="fa fa-cogs pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u >LANGUAGES I KNOW AND SKILLS</u></h4>
+                            <p class="card-text">HTML, CSS, Javascript, Python and React. With knowledge of C and C++, I am also a very fast learner that I learned to play chess in two months&#128512. </p>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4">
+                        <div class="card-block">
+                            <i class="fa fa-file-code-o pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>LANDING PAGES</u> </h4>
+                            <p class="card-text">A full responsive landing page to market services or business to people around the globe.</p>
+                        </div>
+                    </div>
+<!--                     <div class="card col-lg-">
+                        <div class="card-block">
+                            <i class="fa fa-file-code-o pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>LANDING PAGES</u> </h4>
+                            <p class="card-text">A full responsive landing page to market services or business to people around the globe.</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="card col-lg-12">
+                        <div class="card-block" id="about">
+                            <i class="fa fa-user pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>WHO AM I?</u> </h4>
+                            <p class="card-text"> I'm Ezekiel Aleke a Computer Science third year student of University of Ilorin and a Technology enthusiast! <br>
+                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card-deck-wrapper card-deck">
+                    <div class="card col-lg-4">
+                        <div class="card-block">
+                            <i class="fa fa-newspaper-o pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>BUSINESS WEBSITE</u> </h4>
+                            <p class="card-text">A website to show what you do and tell others what you can offer to them.</p>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4">
+                        <div class="card-block">
+                            <i class="fa fa-edit pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>BLOG</u> </h4>
+                            <p class="card-text">Share with people what goes on in your life, give idea and talk to people on how to improve themselves with your own personal blog. </p>
+                        </div>
+                    </div>
+<!--                     <div class="card col-lg-4">
+                        <div class="card-block">
+                            <i class="fa fa-file-code-o pl-5 pb-3 pt-3" style="font-size: 100px;"></i>
+                            <h4 class="card-title"><u>LANDING PAGES</u> </h4>
+                            <p class="card-text">A full responsive landing page to market services or business to people around the globe.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="contact">
+        <div class="pt-5 pb-5 text-dark" id="footer-div">
+            <a href="#"><i class="fa fa-angle-double-up arrow-up"></i></a>
+            <p>CONTACT</p>
+            <P>For further details and enquiries</P>
+            <a href="mailto:ezekielaleke@gmail.com"><i class="fa fa-envelope-square ml-3" style="font-size: 30px;"></i></a>
+            <a href="tel: +2347057157207"><i class="fa fa-phone-square ml-3" style="font-size: 30px;"></i></a>
+            <a href="https://mobile.twitter.com/ezekiel_aleke"><i class="fa fa-twitter-square ml-3" style="font-size: 30px;"></i></a>
+            <a href="https://wa.link/r7mps8"><i class="fa fa-whatsapp ml-3" style="font-size: 30px;"></i></a>
+            <a href="http://github.com/aleke09"><i class="fa fa-github ml-3" style="font-size: 30px;"></i></a>
+            <a href="http://linkedin.com/in/aleke-ezekiel-a07bb8191"><i class="fa fa-linkedin-square ml-3" style="font-size: 30px;"></i></a>
+            <hr />
+            &copy 2020 By Aleke Ezekiel with &#10084
+        </div>
+    </footer>
+
+    <script src= "./jquery-3.3.1.min.js"></script>
+    <script src= "./bootstrap.min.js"></script>
+</body>
+</html>
